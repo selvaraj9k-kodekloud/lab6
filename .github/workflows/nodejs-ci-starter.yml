@@ -3,7 +3,6 @@ name: Organization NodeJS CI
 on:
   push:
     branches: [ "main" ]
-
 jobs:
   build:
     runs-on: [production, self-hosted]
